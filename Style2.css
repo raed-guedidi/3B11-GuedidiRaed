@@ -37,9 +37,9 @@ nav a:hover {
 
 main {
     display: flex;
-    justify-content: center; /* Center sections horizontally */
-    align-items: center; /* Center sections vertically */
-    flex-wrap: wrap; /* Allow sections to wrap to the next line if the width is not enough */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 
 section {
@@ -48,7 +48,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
-    width: calc(30% - 40px); /* Adjusted margin and width for three sections */
+    width: calc(30% - 40px); 
     box-sizing: border-box;
     text-align: center;
 }

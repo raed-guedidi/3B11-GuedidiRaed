@@ -3,7 +3,7 @@
 <head>
 <meta charset='UTF8'>
 <title>Contact</title>
-<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="Style3.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
             <input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
             <input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
             <textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
-            <input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+            <input onclick="send()" class="contact__form-el contact__form-el--submit" type="submit" value="Send">
         </form>
     </div>
 </section>
@@ -50,6 +50,11 @@
     <a>Made by Raed Guedidi</a>
    <hr>
 </footer>
-
+<script>
+    function send(){
+        confirm("Voulez vous envoyer cet email ?")
+    }
+</script>
+</body>
 </html>
 
